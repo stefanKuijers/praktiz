@@ -1,0 +1,21 @@
+{
+    "name": "Air Q",
+    "short_name": "Air-Q",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#FFFFFF",
+    "description": "Air Q app offline",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#000"
+}

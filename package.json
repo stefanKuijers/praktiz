@@ -1,0 +1,59 @@
+{
+    "name": "praktiz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint . --ext .ts,.tsx  --ignore-pattern node_modules/",
+        "test": "jest",
+        "test:unit": "echo \"jest unit\" && exit 1",
+        "test:e2e": "echo \"puppeteer e2e\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stefanKuijers/praktiz.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stefanKuijers/praktiz/issues"
+    },
+    "homepage": "https://github.com/stefanKuijers/praktiz#readme",
+    "dependencies": {
+        "@material-ui/core": "^4.9.2",
+        "@material-ui/lab": "^4.0.0-alpha.43",
+        "@types/qs": "^6.9.1",
+        "dotenv": "^8.2.0",
+        "isomorphic-unfetch": "^3.0.0",
+        "mongodb": "^3.5.2",
+        "next": "^9.2.1",
+        "next-offline": "^5.0.0",
+        "qs": "^6.9.1",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-markdown": "^4.3.1",
+        "swr": "^0.1.16"
+    },
+    "devDependencies": {
+        "@testing-library/react": "^9.4.0",
+        "@types/jest": "^25.1.2",
+        "@types/mongodb": "^3.3.15",
+        "@types/node": "^13.7.0",
+        "@types/react": "^16.9.19",
+        "@typescript-eslint/eslint-plugin": "^2.19.0",
+        "@typescript-eslint/parser": "^2.19.0",
+        "babel-jest": "^25.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.18.3",
+        "jest": "^25.1.0",
+        "prettier": "^1.19.1",
+        "ts-jest": "^25.2.0",
+        "typescript": "^3.7.5"
+    }
+}
